@@ -1,9 +1,20 @@
 *{margin: 0;
 padding: 0;}
 
-body{
-   
+body{background: linear-gradient(90deg,  white 65%, rgba(219, 163, 151, 0.996)65%,  rgba(219, 163, 151, 0.996)35%)}
 
-   background: linear-gradient(90deg,  white 65%, rgba(219, 163, 151, 0.996)65%,  rgba(219, 163, 151, 0.996)35%)
-     
-}
+
+.h1 {display: flex;
+   flex-direction: row;}
+
+   .logo{}
+   .menu{display: flex;
+   flex-direction: row;}
+
+
+
+
+   .iconos{display: flex;
+   flex-direction: row;}
+   .sign{display: flex;
+   flex-direction: row;}
