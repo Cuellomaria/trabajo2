@@ -20,31 +20,65 @@ header{display: flex;
 .s{padding-right: 4.5em;}
 .b{padding-right: 4.5em;}
 
-.derech{margin-top: 2em;
-   margin-left: 40em;
-   font-size: 0.8rem;
-   color:rgba(0, 0, 0, 0.697);}
-
-nav a{color:rgba(0, 0, 0, 0.697);
+nav a{ color:rgba(33, 32, 32, 0.697);
    text-decoration: none;
    padding: 1em 1em;
    font-size: 0.8rem;
    font-weight:bolder; 
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
+.derech nav{display: flex;
+   margin-top: 2em;
+   margin-left: 35em;
+   font-size: 0.8rem;
+   color:rgba(33, 32, 32, 0.697)}
+
+.ic{margin-left: 2em;
+display: flex;}
+
+.compra {display: flex;
+   margin-right: 4em;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   
+}
+.cartera{ width: 100%;
+}
+
+
+
+.cir{position: absolute;
+background-color: white;
+border: 0.1em solid black;
+border-radius: 60%;
+color: black;
+font-size: 0.4rem;
+
+text-align: center;
+right: 0;
+padding: 0.4em 0.6em;
+
+
+
+
+}
+
 .vertical{
-border-left: 0.1em solid black;
-height: 5%;
+border-left: 0.1em solid rgba(60, 58, 58, 0.815);
+height: 3%;
 right: 13%;
-position: absolute;}
+position: absolute;
+margin-right: 5em;
+margin-top: 1em;}
 
-
-
-
+.icc{ margin-top: 1em;}
 .uno{padding: 0.2em 1.5em;
    background-color: inherit;
    font-size: small;
-   border: 0.15em solid rgba(0, 0, 0, 0.697);}
+   border: 0.15em solid rgba(33, 32, 32, 0.697);}
+
+
 
 .hiro{height: 70vh;
    display: flex; }
@@ -73,14 +107,33 @@ p{margin-left: 5em;
    margin-top: 2em;
    color: grey;
    padding-bottom: 2em;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} 
-
-
+   font-family:'Cormorant Garamond', serif;
+   font-weight: bolder;}
 
 .chica{ display: flex;
    justify-content: top;
-   margin-right: 30em;
-   }
+   margin-right: 25em;}
    
 img{width: 160%;
 height: 150%;}
+
+
+
+.tres{display: flex;
+   margin-top: 18em;}
+
+h3{font-size: 0.7rem;
+   color:rgba(60, 58, 58, 0.815);
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: bolder;
+   padding-bottom: 3em;
+   padding-right: 6.5em;}
+  
+.negro{margin-top: 1.3em;}
+
+.barra{ border-left: 0.2em solid rgba(60, 58, 58, 0.815);
+   height: 22%;
+   right: 4%;
+   position: absolute;}
+
+
