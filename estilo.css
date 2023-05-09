@@ -8,9 +8,9 @@ header{display: flex;
    flex-direction: row;
    padding-bottom: 2em;}
 
-.logo{ margin-top: 1.2em;
+.logo{margin-top: 1.2em; 
    margin-left: 4em;
-   margin-right: 5em;
+   margin-right: 5em; 
    font-family: 'DM Serif Display', serif, 'Poppins', sans-serif;
    font-size:larger;}
    
@@ -40,11 +40,9 @@ display: flex;}
    margin-right: 4em;
    position: relative;
    width: 100%;
-   height: 100%;
-   
-}
-.cartera{ width: 100%;
-}
+   height: 100%;}
+
+.cartera{ width: 100%;}
 
 
 
@@ -54,15 +52,9 @@ border: 0.1em solid black;
 border-radius: 60%;
 color: black;
 font-size: 0.4rem;
-
 text-align: center;
 right: 0;
-padding: 0.4em 0.6em;
-
-
-
-
-}
+padding: 0.4em 0.6em;}
 
 .vertical{
 border-left: 0.1em solid rgba(60, 58, 58, 0.815);
@@ -111,8 +103,7 @@ p{margin-left: 5em;
    font-weight: bolder;}
 
 .chica{ display: flex;
-   justify-content: top;
-   margin-right: 25em;}
+   margin-right: 20em;}
    
 img{width: 160%;
 height: 150%;}
@@ -120,20 +111,26 @@ height: 150%;}
 
 
 .tres{display: flex;
-   margin-top: 18em;}
+   margin-top: 18em;
+width: 20%;}
+
 
 h3{font-size: 0.7rem;
-   color:rgba(60, 58, 58, 0.815);
+   color:rgb(79, 77, 77);
    font-family: 'Cormorant Garamond', serif;
    font-weight: bolder;
    padding-bottom: 3em;
-   padding-right: 6.5em;}
+   margin-left: 6em;}
   
 .negro{margin-top: 1.3em;}
 
-.barra{ border-left: 0.2em solid rgba(60, 58, 58, 0.815);
-   height: 22%;
-   right: 4%;
+.barra1{ border-right: 0.2em solid black;
+   height: 8%;
+   right: 6%;
    position: absolute;}
-
+  
+.barra2{border-right: 0.2em solid rgba(66, 63, 63, 0.573);
+   height: 22%;
+   right: 6%;
+position: absolute;}
 
